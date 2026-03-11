@@ -84,5 +84,14 @@ h3 + ul {
     float: right;
 }
 
+p a {
+    float: right;
+    margin-right: 15px;
+}
+
+#web {
+    display: none;
+}
+
 /* Esto asegura que al imprimir sea limpio */
 @media print { body { margin: 0; } }
