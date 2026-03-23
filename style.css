@@ -4,6 +4,8 @@ body {
     max-width: 800px; 
     margin: 40px auto; 
     color: #333; 
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 header {
