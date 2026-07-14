@@ -29,14 +29,10 @@ h3 + ul {
     margin-top: 0;
 }
 
-.nats img {
-    display: none;
-}
-
 .nats {
     background-image: none;
 }
 
-.skill progress {
+.skill progress, .nats img, figcaption {
     display: none;
 }
