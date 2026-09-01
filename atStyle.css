@@ -50,3 +50,6 @@ h3 + ul {
     float: inline-end;
     margin: 0px;
 }
+
+/* Esto asegura que al imprimir sea limpio */
+@media print { body { margin: 0; } }

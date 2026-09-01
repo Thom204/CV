@@ -95,5 +95,9 @@ p a {
     display: none;
 }
 
+form {
+    display: block;
+}
+
 /* Esto asegura que al imprimir sea limpio */
 @media print { body { margin: 0; } }

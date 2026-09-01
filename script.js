@@ -1,7 +1,13 @@
-function tamper(skills, exp) {
+function tamper(jt, skills, exp) {
     const ctl = skills.split(", ");
     const ctexp = exp.split(", ");
     
+    if (jt != "") {
+        const jtc = document.createElement("p");
+        jtc.innerHTML = `<p>Bucando un ${jt}</p>`;
+        document.querySelector("header div").appendChild(jtc);
+    }
+
     document.querySelectorAll(`#habilidades > .skill`).forEach( p => {
         if (ctl.length > 0) {
             const ne = document.createElement("span");
@@ -39,5 +45,5 @@ document.querySelectorAll(".nats").forEach(e => {
 const qstr = window.location.search;
 const qparams = new URLSearchParams(qstr);
 
-tamper(qparams.get("skkw"), qparams.get("expkw"));
+tamper(qparams.get("jt"), qparams.get("skkw"), qparams.get("expkw"));
 
