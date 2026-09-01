@@ -36,3 +36,17 @@ h3 + ul {
 .skill progress, .nats img, figcaption {
     display: none;
 }
+
+.skill {
+    display: block;
+}
+
+.skill  p, ul p {
+    display: inline;
+}
+
+.invisi {
+    color: #ffffff;
+    float: inline-end;
+    margin: 0px;
+}
